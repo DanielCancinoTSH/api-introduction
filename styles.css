@@ -1,0 +1,32 @@
+body {
+    background-color: #ffecce;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:24px
+}
+h1 {
+margin-bottom: 60px;    
+}
+img {
+    max-width:300px;
+}
+.fact {
+  border: 3px dashed #B7410E;
+  padding: 24px;
+  font-size: 1.3em;   
+  font-style: italic;
+}
+button {
+    border: 3px dashed #B7410E;
+    background-color: #ffecce;
+    font-size: 2em;
+    padding: 8px 10px;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #B7410E;
+    border-color: #ffecce;
+}
